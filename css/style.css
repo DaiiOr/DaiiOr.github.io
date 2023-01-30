@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(250, 236, 215);
+}
+.navegacion {
+    background-color: rgb(248, 205, 231);
+    border-radius: 10px;   
+}
+.nav {
+    display: flex;
+    justify-content: center;
+}
+.icono {
+    width: 20px;
+    height: 20px; 
+    margin: 40px;   
+    font-size: 40px;
+}
+.nav li {
+    list-style: none;
+    width: 300px;
+    margin: 40px;
+}
+.nav li:hover{
+    background-color:rgb(248, 115, 204);
+    cursor: pointer;
+}
+#informacion {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.contenedor-imagen {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(156, 156, 156);
+    padding: 10px;
+    border-style: double;
+    border-radius: 10px;
+    border-color: rgb(96, 97, 95);
+}
+.imagen {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+.lista, .email {
+    list-style: none;
+}
+.estilo-lista {
+    list-style:circle ;
+    text-decoration: underline;
+    padding: 15px;
+    font-weight: bold;
+    color: rgb(250, 15, 172);
+}
+.email{
+    color: blue;
+}
+#informacion h1 {
+    color: rgb(250, 15, 172);
+    text-transform: uppercase;
+}
+#informacion h3 {
+    list-style: none;
+    padding: 15px;
+}
+.boton {
+    text-align: right;
+}
+#eliminar {
+    height: 40px;
+    width: 200px;
+    line-height: 5px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(248, 115, 204);
+    border-radius: 10px;
+    cursor: pointer;
+}
