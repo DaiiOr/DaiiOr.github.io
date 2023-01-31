@@ -48,9 +48,9 @@ function datosCurriculum(){
         `
     });
 }
+
 datosCurriculum();
 
 document.getElementById('eliminar').addEventListener('click', function(e){
-    document.getElementById('informacion').innerHTML = "";
-    
+    document.getElementById('informacion').innerHTML = "";   
 });
