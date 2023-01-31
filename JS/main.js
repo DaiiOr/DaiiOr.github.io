@@ -48,13 +48,9 @@ function datosCurriculum(){
         `
     });
 }
+datosCurriculum();
 
 document.getElementById('eliminar').addEventListener('click', function(e){
     document.getElementById('informacion').innerHTML = "";
     
 });
-
-datosCurriculum();
-
-
-//datosCurriculum();
